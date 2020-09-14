@@ -11,6 +11,5 @@ module.exports = {
       use: 'gridsome-plugin-tailwindcss',
     },
   ],
-  siteUrl: 'https://<your-github-username>.github.io',
-  pathPrefix: '/<your-gridsome-repo-name>',
+  siteUrl: 'https://pbabala.github.io',
 };
