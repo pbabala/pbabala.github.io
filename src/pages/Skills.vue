@@ -1,6 +1,6 @@
 <template>
   <Content title="Qualifications" small :next="next">
-    <ul class="list-disc ml-8">
+    <ul class="list-disc ml-8 text-lg">
       <li v-for="skill in skills" :key="skill">{{ skill }}</li>
     </ul>
   </Content>
@@ -20,7 +20,7 @@ export default {
       skills: [
         "JavaScript (ES6+)",
         "Vue.js, Vuex",
-        "Gridsome, Tailwindcss",
+        "Gridsome, Vuetify, Tailwindcss",
         "AngularJS, Angular",
         "npm, Webpack, Grunt",
         "Git",

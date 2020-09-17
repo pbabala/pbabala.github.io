@@ -4,7 +4,7 @@
       <div class="flex-initial">
         <Header />
       </div>
-      <div class="flex-auto mx-2 md:ml-16">
+      <div class="flex-auto mx-5 lg:mx-2 md:ml-12 lg:ml-16">
         <div class="flex justify-between h-full">
           <div class="flex-auto w-2/3 h-full">
             <slot />

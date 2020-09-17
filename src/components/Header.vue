@@ -1,6 +1,6 @@
 <template>
-  <header class="h-auto md:h-12 lg:h-24 xl:h-32 md:p-10 lg:px-12 md:bg-transparent">
-    <nav class="flex flex-col md:flex-row justify-between items-center">
+  <header class="flex items-center h-auto md:h-12 lg:h-24 xl:h-32 md:p-10 lg:px-12">
+    <nav class="flex-auto flex flex-col md:flex-row justify-between items-center">
       <div class="flex justify-between items-center w-full md:mx-8">
         <g-link
           to="/"

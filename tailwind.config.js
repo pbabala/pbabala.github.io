@@ -1,10 +1,6 @@
 module.exports = {
   purge: [],
-  theme: {
-    maxHeight: {
-      'screen-75': '75vh',
-    },
-  },
+  theme: {},
   variants: {},
   plugins: [],
 };
