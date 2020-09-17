@@ -19,7 +19,7 @@ export default {
   },
   data() {
     return {
-      next: { label: "Next" },
+      next: { label: "Next", linkTo: "/skills" },
       items: [
         {
           company: "Finastra Global Limited",

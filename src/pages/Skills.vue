@@ -28,7 +28,7 @@ export default {
         "Atlassian tools (Jira, Confluence, Bitbucket)",
         "Basic design skills (Photoshop, Gravit Design)",
       ],
-      next: { label: "Next" },
+      next: { label: "Next", linkTo: "/contact" },
     };
   },
 };

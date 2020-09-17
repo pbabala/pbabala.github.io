@@ -27,7 +27,7 @@ export default {
   },
   data() {
     return {
-      next: { label: "More" },
+      next: { label: "More", linkTo: "/experience" },
     };
   },
 };

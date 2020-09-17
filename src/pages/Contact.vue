@@ -20,7 +20,7 @@ export default {
   },
   data() {
     return {
-      next: { label: "Next" },
+      next: { label: "Home", linkTo: "/" },
     };
   },
 };

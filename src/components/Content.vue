@@ -18,7 +18,7 @@
     <div
       class="flex text-center tracking-wider md:w-48 h-8 mt-6 md:mt-12 pt-1 rounded-full text-white md:bg-orange-500 lg:hover:bg-orange-400 bg-red-500 hover:shadow-lg"
     >
-      <g-link to="/" class="flex-auto">{{ next.label }}</g-link>
+      <g-link :to="next.linkTo" class="flex-auto">{{ next.label }}</g-link>
     </div>
     <!-- </div> -->
   </div>
