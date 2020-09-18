@@ -20,7 +20,8 @@ export default {
       skills: [
         "JavaScript (ES6+)",
         "Vue.js, Vuex",
-        "Gridsome, Vuetify, Tailwindcss",
+        "Gridsome",
+        "Vuetify, Tailwindcss",
         "AngularJS, Angular",
         "npm, Webpack, Grunt",
         "Git",

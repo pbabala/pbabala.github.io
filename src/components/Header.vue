@@ -4,13 +4,13 @@
       <div class="flex justify-between items-center w-full md:mx-8">
         <g-link
           to="/"
-          class="py-2 px-8 md:px-5 bg-opacity-0 hover:bg-opacity-25 md:hover:shadow-md font-medium text-center text-red-500 tracking-wider md:border-2 md:border-red-400 md:rounded-full cursor-pointer"
+          class="py-2 px-8 md:px-5 bg-opacity-0 hover:bg-opacity-25 md:hover:shadow-md font-medium text-center text-orange-500 md:text-red-500 md:border-2 md:border-red-400 md:rounded-full cursor-pointer"
         >Home</g-link>
 
         <div class="w-8 h-8 m-5 block md:hidden cursor-pointer" @click="toggleMenu()">
-          <span class="w-full h-1 bg-red-500 block my-1 rounded-sm"></span>
-          <span class="w-full h-1 bg-red-500 block my-1 rounded-sm"></span>
-          <span class="w-full h-1 bg-red-500 block my-1 rounded-sm"></span>
+          <span class="w-full h-1 bg-pink-500 block my-1 rounded-sm"></span>
+          <span class="w-full h-1 bg-pink-500 block my-1 rounded-sm"></span>
+          <span class="w-full h-1 bg-pink-500 block my-1 rounded-sm"></span>
         </div>
       </div>
 

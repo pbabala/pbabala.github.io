@@ -39,7 +39,7 @@ export default {
           company: "Misys Global Limited",
           startDate: "Feb 2015",
           endDate: "Oct 2015",
-          title: "Intern developer",
+          title: "Intern",
           details: ["Java develper (Java, Swing)"],
         },
       ],
