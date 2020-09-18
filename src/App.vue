@@ -17,7 +17,7 @@ export default {
   @apply bg-gradient-to-r from-pink-100 via-pink-500 to-orange-500;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   body {
     @apply background-horizontal;
   }

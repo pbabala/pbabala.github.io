@@ -1,29 +1,19 @@
 <template>
   <div class="flex flex-col md:px-5 h-full">
-    <!-- text -->
-
     <div class="flex-initial font-mono">
-      <!-- title -->
       <p
-        class="text-center md:text-left text-3xl"
-        :class="small ? 'lg:text-4xl' : ' lg:text-6xl'"
+        class="text-center lg:text-left"
+        :class=" small ? 'text-2xl md:text-4xl' : 'text-4xl lg:text-6xl'"
       >{{ title }}</p>
-      <!-- bar -->
-      <div
-        class="h-2 md:w-48 my-3 bg-gradient-to-r from-orange-500 to-pink-500 rounded"
-        :class="small ? 'md:my-6' : 'md:my-8'"
-      ></div>
+      <div class="h-2 lg:w-48 my-3 bg-gradient-to-r from-orange-500 to-pink-500 rounded"></div>
     </div>
-    <div class="flex-initial overflow-auto">
+    <div class="flex-initial">
       <slot />
     </div>
-    <!-- <div class="border-2 justify-self-center"> -->
-    <div
-      class="flex text-center tracking-wider md:w-48 h-8 mt-6 md:mt-12 pt-1 rounded-full text-white bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 md:bg-orange-500 lg:hover:bg-orange-400 hover:shadow-lg"
-    >
-      <g-link :to="next.linkTo" class="flex-auto">{{ next.label }}</g-link>
-    </div>
-    <!-- </div> -->
+    <g-link
+      :to="next.linkTo"
+      class="text-center md:text-xl tracking-wider lg:w-48 h-6 md:h-8 my-6 md:my-12 rounded-full text-white bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 md:bg-orange-500 lg:hover:bg-orange-400 hover:shadow-lg"
+    >{{ next.label }}</g-link>
   </div>
 </template>
 

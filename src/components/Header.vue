@@ -1,13 +1,13 @@
 <template>
-  <header class="flex items-center h-auto md:h-12 lg:h-24 xl:h-32 md:p-10 lg:px-12">
-    <nav class="flex-auto flex flex-col md:flex-row justify-between items-center">
+  <header class="flex items-center h-auto lg:h-24 xl:h-32 md:p-10 lg:px-12">
+    <nav class="flex-auto flex flex-col lg:flex-row justify-between items-center">
       <div class="flex justify-between items-center w-full md:mx-8">
         <g-link
           to="/"
-          class="py-2 px-8 md:px-5 bg-opacity-0 hover:bg-opacity-25 md:hover:shadow-md font-medium text-center text-orange-500 md:text-red-500 md:border-2 md:border-red-400 md:rounded-full cursor-pointer"
+          class="py-2 px-8 md:px-5 bg-opacity-0 hover:bg-opacity-25 md:hover:shadow-md font-medium text-center text-orange-600 md:text-red-500 md:border-2 md:border-red-400 md:rounded-full cursor-pointer"
         >Home</g-link>
 
-        <div class="w-8 h-8 m-5 block md:hidden cursor-pointer" @click="toggleMenu()">
+        <div class="w-8 h-8 m-5 block lg:hidden cursor-pointer" @click="toggleMenu()">
           <span class="w-full h-1 bg-pink-500 block my-1 rounded-sm"></span>
           <span class="w-full h-1 bg-pink-500 block my-1 rounded-sm"></span>
           <span class="w-full h-1 bg-pink-500 block my-1 rounded-sm"></span>
@@ -15,7 +15,7 @@
       </div>
 
       <div
-        class="flex md:flex flex-col md:flex-row justify-between w-full md:w-auto items-center"
+        class="flex flex-col lg:flex lg:flex-row justify-between w-full lg:w-auto items-center"
         :class="{ 'hidden' : !isMenuOpened}"
       >
         <g-link to="/experience" class="nav-button" active-class="is-active">Experience</g-link>
@@ -55,7 +55,7 @@ export default {
   @apply shadow-md;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
   .nav-button {
     @apply py-2 px-5 w-full bg-white bg-opacity-0 text-center text-red-500 tracking-wider border-none rounded-none cursor-pointer;
   }

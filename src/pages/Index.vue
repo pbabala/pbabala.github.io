@@ -1,13 +1,15 @@
 <template>
   <div class="flex flex-col justify-between">
     <g-image
-      class="block md:hidden h-32 w-32 mx-auto my-auto shadow-md bg-gradient-to-r from-orange-500 to-pink-500 rounded-full"
+      class="block lg:hidden h-32 w-32 md:h-64 md:w-64 mx-auto mb-6 bg-gradient-to-r from-orange-500 to-pink-500 rounded-full"
       src="~/assets/profile-circle.png"
     ></g-image>
     <Content title="Piotr Bąbała" :next="next">
-      <p class="text-left max-w-screen-sm md:pr-8">
+      <p
+        class="w-auto lg:w-3/4 text-center md:text-left md:text-xl lg:text-3xl font-light text-justify mx-2 lg:mx-0 lg:mr-0 my-1 md:my-4 lg:my-8"
+      >
         Front-end developer with experience in
-        <strong>AngularJS</strong> and basic knowledge of
+        <strong>AngularJS</strong> and good knowledge of
         <strong>Angular</strong>.
         <br />Passionate about
         <strong>JavaScript</strong> and its ecosystem. Most recently
@@ -22,7 +24,7 @@
 </template>
 
 <script>
-import Content from "../components/Content";
+import Content from "~/components/Content";
 
 export default {
   components: {
