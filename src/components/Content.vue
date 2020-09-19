@@ -12,7 +12,7 @@
     </div>
     <g-link
       :to="next.linkTo"
-      class="text-center md:text-xl tracking-wider lg:w-48 h-6 md:h-8 my-6 md:my-12 rounded-full text-white bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 md:bg-orange-500 lg:hover:bg-orange-400 hover:shadow-lg"
+      class="text-center xl:text-xl tracking-wider lg:w-48 h-6 xl:h-8 my-6 md:my-12 rounded-full text-white bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 md:bg-orange-500 lg:hover:bg-orange-400 hover:shadow-lg"
     >{{ next.label }}</g-link>
   </div>
 </template>
@@ -34,4 +34,5 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+</style>

@@ -6,7 +6,7 @@
     ></g-image>
     <Content title="Piotr Bąbała" :next="next">
       <p
-        class="w-auto lg:w-3/4 text-center md:text-left md:text-xl lg:text-3xl font-light text-justify mx-2 lg:mx-0 lg:mr-0 my-1 md:my-4 lg:my-8"
+        class="w-auto lg:w-3/4 text-center md:text-left md:text-xl xl:text-3xl font-light text-justify mx-2 lg:mx-0 lg:mr-0 my-1 md:my-4 lg:my-8"
       >
         Front-end developer with experience in
         <strong>AngularJS</strong> and good knowledge of

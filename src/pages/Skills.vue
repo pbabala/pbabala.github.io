@@ -1,6 +1,6 @@
 <template>
   <Content title="Qualifications" small :next="next">
-    <ul class="list-disc ml-8 lg:my-4 md:text-2xl xl:text-3xl font-light">
+    <ul class="list-disc ml-8 lg:my-4 xl:text-3xl font-light">
       <li v-for="skill in skills" :key="skill">{{ skill }}</li>
     </ul>
   </Content>
