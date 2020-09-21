@@ -8,9 +8,18 @@
         >Home</g-link>
 
         <div class="w-8 h-8 m-5 block lg:hidden cursor-pointer" @click="toggleMenu()">
-          <span class="w-full h-1 bg-pink-500 block my-1 rounded-sm"></span>
-          <span class="w-full h-1 bg-pink-500 block my-1 rounded-sm"></span>
-          <span class="w-full h-1 bg-pink-500 block my-1 rounded-sm"></span>
+          <span
+            class="w-full h-1 bg-pink-500 block my-1 rounded-sm transition transition-transform duration-75 ease-in"
+            :class="{' transform rotate-45 translate-y-2' : isMenuOpened}"
+          ></span>
+          <span
+            class="w-full h-1 bg-pink-500 block my-1 rounded-sm transition transition-opacity duration-75 ease-in"
+            :class="{' opacity-0' : isMenuOpened}"
+          ></span>
+          <span
+            class="w-full h-1 bg-pink-500 block my-1 rounded-sm transition transition-transform duration-75 ease-in"
+            :class="{' transform -rotate-45 -translate-y-2' : isMenuOpened}"
+          ></span>
         </div>
       </div>
 
@@ -59,10 +68,6 @@ export default {
   .nav-button {
     @apply py-2 px-5 w-full bg-white bg-opacity-0 text-center text-red-500 tracking-wider border-none rounded-none cursor-pointer;
   }
-}
-
-.nav-button-mobile:hover {
-  @apply bg-white bg-opacity-25;
 }
 
 .is-active {
