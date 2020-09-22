@@ -1,6 +1,7 @@
 <template>
   <div
     class="text-left max-w-screen-sm px-4 py-2 m-1 cursor-pointer hover:bg-white hover:bg-opacity-25 rounded"
+    :class="{'bg-white bg-opacity-25' : !collapsed}"
     @click="collapsed = !collapsed"
   >
     <div class="flex justify-between items-center">
@@ -30,6 +31,3 @@ export default {
   },
 };
 </script>
-
-<style>
-</style>

@@ -6,12 +6,6 @@
   </Layout>
 </template>
 
-<script>
-export default {
-  components: {},
-};
-//
-</script>
 <style>
 .background-horizontal {
   @apply bg-gradient-to-r from-pink-100 via-pink-500 to-orange-500;
