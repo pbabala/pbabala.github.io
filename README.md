@@ -1,14 +1,13 @@
-# Default starter for Gridsome
+# Demo page made using Gridsome and Tailwindcss
 
-This is the project you get when you run `gridsome create new-project`.
+# Live demo available [HERE](https://pbabala.github.io/).
 
-### 1. Install Gridsome CLI tool if you don't have
+### Developement:
 
-`npm install --global @gridsome/cli`
+#### 1. Install dependencies
 
-### 2. Create a Gridsome project
+`npm install`
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+#### 2. Run developement server
+
+`npm run develop`
