@@ -1,6 +1,6 @@
 <template>
-  <header class="flex items-center h-auto lg:h-24 xl:h-32 lg:px-8">
-    <nav class="flex-auto flex flex-col lg:flex-row justify-between items-center">
+  <nav class="flex items-center h-auto lg:h-24 xl:h-32 lg:px-8">
+    <div class="flex-auto flex flex-col lg:flex-row justify-between items-center">
       <div class="flex justify-between items-center w-full md:mx-8">
         <g-link
           to="/"
@@ -31,8 +31,8 @@
         <g-link to="/skills" class="nav-button" active-class="is-active">Skills</g-link>
         <g-link to="/contact" class="nav-button" active-class="is-active">Contact</g-link>
       </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
 </template>
 
 <script>
